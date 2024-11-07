@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylenza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div class="logo"><img src="image/Stylenza.png" width="100" alt="stylenza"></div>
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="#">Pria</a>
+                <a href="#">Wanita</a>
+                <a href="#">Anak</a>
+                <a href="">Sport</a>
+                <a href="">Home & Lifestyle</a>
+            </nav>
+
+            <div class="search-box">
+                <input type="text" placeholder="Cari Produk...">
+                <button type="reset"><img src="image/search.png" width="16x" alt=""></button>
+            </div>
+
+            <div class="icons">
+                <div class="profile-menu" id="profileMenu">
+                    <a href="" class="profile-link" id="profileLink">
+                        <i><img src="image/profile.png" width="28" alt=""></i> Masuk / Daftar
+                    </a>
+                    <div class="dropdown-content" id="dropdownContent">
+                        <a href=""> Masuk / Daftar</a>
+                        <a href=""> Pesanan </a>
+                        <a href=""> FAQ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="content-container">
+            <section class="product-section">
+                <div class="form-container">
+                    <h2>Formulir Masukan</h2>
+                    <form id="myForm">
+                        <label for="name">Nama:</label>
+                        <input class="form1" type="text" id="name" name="name" required>
+                
+                        <label for="email">Email:</label>
+                        <input class="form1" type="email" id="email" name="email" required>
+                        
+                        <label for="email">Masukan:</label>
+                        <input class="form1" type="text" id="masukan" name="masukan" required>
+
+                        <button class="form2" type="submit">Kirim</button>
+                        <p class="error" id="error-message"></p>
+                    </form>
+                </div>
+            </section>
+            <aside class="sidebar">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#">Hubungi Kami</a></li>
+                    <li><a href="masukan.html">Masukan</a></li>
+                    <li><a href="#">Alamat</a></li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Stylenza. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
